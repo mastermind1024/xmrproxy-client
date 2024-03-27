@@ -1,6 +1,6 @@
 services:
   ganache:
-    image: hybuild/ganache:poe7
+    image: hybuild/ganache
     restart: on-failure
     ports:
       - 7545:7545
@@ -8,9 +8,10 @@ services:
       - ganache-db:/db
  
   swagger:
-    image: hybuild/swagger:poe7
+    image: hybuild/swagger
     restart: always
     ports:
+      - 7777:7777
       - 8080:8080
  
 volumes:
