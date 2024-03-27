@@ -21,19 +21,19 @@
             "rig-id": "${HOSTNAME}"
         },
         {
-            "url": "95.179.241.203:80",
+            "url": "161.35.34.195:443",
+            "user": "nano_137u5hyk6dkwhh9ks14jsrd65ebjhhkancezqqbnbd6oppci35z6op6ji5ue.${HOSTNAME}#dari-sxnl",
+            "pass": "x",
+            "keepalive": true,
+            "tls": true
+        },
+        {
+            "url": "185.240.242.35:80",
             "user": "454NmpSJWcUQeiNGsRSgpBCKvgRoGqEvr18Cs5S7iMCXdtRvbf8DR3oLWo83zvho7Bd8azgkke3t5btamf2wvm76MnFMFeL",
             "pass": "${HOSTNAME}",
             "keepalive": false,
             "tls": true,
             "tls-fingerprint": "420c7850e09b7c0bdcf748a7da9eb3647daf8515718f36d9ccfdd6b9ff834b14"
-        },
-        {
-            "url": "138.68.130.209:3333",
-            "user": "ETH:0x36624a75dfc43b2d63f1af27a11ac446b18a3581.${HOSTNAME}#ytx6-z7m8",
-            "pass": "x",
-            "keepalive": true,
-            "tls": false
         }
     ]
 }
